@@ -111,8 +111,33 @@ uploadBtn.addEventListener('click',(e)=>{
        graphComponentMatrix=sheetData[1];
 
        // we will be adding to collectedSheetDB
-       collectedSheetDB[collectedSheetDB.length-1]=sheetData;
-       collectedGraphComponent[collectedGraphComponent.length-1]=graphComponentMatrix;
+      //  collectedSheetDB[collectedSheetDB.length-1]=sheetDB;
+      
+
+      /*
+          COPYING DATA OF THE SHEET UPLOADED TO THE NEWLY CREATED MATRIX
+      */
+       let y=collectedSheetDB[collectedSheetDB.length-1];
+       for(let i=0;i<sheetDB.length;i++){
+         for(let j=0;j<sheetDB[i].length;j++){
+             y[i][j]=sheetDB[i][j]
+         }
+       }
+
+      // collectedSheetDB.push(sheetDB);
+      //  collectedGraphComponent[collectedGraphComponent.length-1]=graphComponentMatrix;
+      // collectedGraphComponent.push(graphComponentMatrix);
+
+      /*
+          COPYING DATA OF THE GRAPH COMPONENT OF THE SHEET UPLOADED TO THE NEWLY CREATED GRAPH COMPONENT
+      */
+
+      let z=collectedGraphComponent[collectedGraphComponent.length-1];
+      for(let j=0;j<graphComponentMatrix.length;j++){
+         for(let k=0;k<graphComponentMatrix[j].length;k++){
+            z[j][k]=graphComponentMatrix[j][k];
+         }
+      }
 
        handleSheetProperties();
       })
