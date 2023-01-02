@@ -11,3 +11,7 @@ A user can upload excel sheet created through this Web App to resume his work.
 
 
 # Screen Shots
+
+Home Screen
+
+![HomeScreen](https://user-images.githubusercontent.com/56187643/210245083-52874fb1-408e-40e7-8a5a-6e992ead0baa.png)
