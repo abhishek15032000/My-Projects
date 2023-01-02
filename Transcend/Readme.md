@@ -15,3 +15,6 @@ A user can upload excel sheet created through this Web App to resume his work.
 Home Screen
 
 ![HomeScreen](https://user-images.githubusercontent.com/56187643/210245083-52874fb1-408e-40e7-8a5a-6e992ead0baa.png)
+
+Being a lighter version of Microsoft Excel it supports upto 100 rows and 26 cols.
+By default File tab we will be selected where all the features i have implemented will be present and can be used by the user.
