@@ -27,3 +27,11 @@ here we get the location of each cell which is currently selected.
 
 Formula Bar
 
+![Formula Bar and Formula Evaluation](https://user-images.githubusercontent.com/56187643/210247503-56d17c45-f7e2-41d9-acc3-36fd07544bd1.png)
+
+here we can add mathematical expression for cells to calculate their value .
+this formula bar can take normal expression as well dependency expression as an input
+
+normal expression is an expression which the value of the cell is not dependent on the value of other cells.
+whereas in dependency expression the value depends on other cells.
+in dependency expression values get updated when the dependent cells values changes. (as in the above example)
