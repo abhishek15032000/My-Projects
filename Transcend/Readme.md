@@ -18,3 +18,9 @@ Home Screen
 
 Being a lighter version of Microsoft Excel it supports upto 100 rows and 26 cols.
 By default File tab we will be selected where all the features i have implemented will be present and can be used by the user.
+
+Address Bar
+
+![Address Bar](https://user-images.githubusercontent.com/56187643/210246462-87a20aa5-b9ed-4c9d-b993-85a8a875636c.png)
+
+here we get the location of each cell which is currently selected.
