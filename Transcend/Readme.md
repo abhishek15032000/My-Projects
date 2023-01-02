@@ -24,3 +24,6 @@ Address Bar
 ![Address Bar](https://user-images.githubusercontent.com/56187643/210246462-87a20aa5-b9ed-4c9d-b993-85a8a875636c.png)
 
 here we get the location of each cell which is currently selected.
+
+Formula Bar
+
