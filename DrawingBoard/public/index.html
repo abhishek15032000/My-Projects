@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="art-and-design.png">
+    <link rel="stylesheet" href="style.css">
+    <title>DrawYou</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+
+    <!-- socket io cdn for connecting with frontend  -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
+    <!-- socket io cdn  for connecting with frontend -->
+    
+    <script>
+          let socket=io.connect("https://drawyou.onrender.com");
+    </script>
+    
+
+    <script src="tools.js" defer></script>
+    <script src="canvas.js" defer></script>
+</head>
+<body>
+    <!-- 
+         creating container where all the functionalities  
+         such as selecting color,erase,paint,download all these
+         icons will lie - dashobard 
+     -->
+
+     <!--
+         hamburger icons
+    -->
+    <div class="options-cont">
+         <!-- hamburger icon -->
+                <i class="fa-solid fa-bars"></i>
+         <!-- hamburger icon -->
+    </div>
+    
+    <!-- tools container -->
+    <!-- scale tools animation -->
+    <div class="tools-cont scale-tools">
+         <!-- all icons will lie here using svg for scalablity -->
+
+              <!-- pencil icon -->
+              <img src="./icons/CoD_fsfe_Pencils.svg" class="pencil">
+               <!-- pencil icon -->
+
+               <!-- eraser icon -->
+               <img src="./icons/Eraser.svg" class="eraser">
+               <!-- eraser icon -->
+
+               <!-- download icon -->
+               <img src="./icons/602365821582692228.svg" class="download">
+               <!-- download icon -->
+
+               <!-- upload icon -->
+               <img src="./icons/upload.svg" class="upload">
+               <!-- upload icon-->
+
+               <!-- sticky notes-->
+               <img src="./icons/stickyNote.svg" class="sticky-notes">
+               <!-- sticky notes-->
+
+               <!-- redo icon -->
+               <img src="./icons/redo.svg" class="redo">
+               <!-- redo icon-->
+
+               <!-- undo icon -->
+               <img src="./icons/undo.svg" class="undo">
+               <!-- undo icon-->
+         <!--  all icons will lie here-->
+    </div>
+    <!-- tools container -->
+    
+    <!-- 
+        to adjust width of the pencil being used 
+        and color of the pencil being used
+    -->
+    <div class="pencil-tool-cont">
+        <div class="pencil-width-cont">
+            <!-- range for selecting width-->
+            <!-- value will decide the slider position on the range-->
+            <input type="range" min="'2" max="10" value="10" class="pencil-width">
+            <!-- range for selecting width-->
+        </div>
+        <div class="pencil-color-cont">
+            <div class="black pencil-color"></div>
+            <div class="red pencil-color"></div>
+            <div class="blue pencil-color"></div>
+        </div>
+    </div>
+    <!-- 
+        to adjust width of the pencil being used 
+        and color of the pencil being used
+    -->
+
+    <!-- 
+        to adjust width of the eraser being used 
+    -->
+    <div class="eraser-tool-cont">
+        <input type="range" min="2" max="10" value="3" class="eraser-width">
+    </div>
+    <!-- 
+        to adjust width of the eraser being used 
+    -->
+
+
+    <!--
+         sticky container
+         whenever we click on a sticky sheet icon
+         we get a container in which we can write 
+         data
+
+         if we upload an image it will get loaded in a sticky container
+
+         we can drag the sticky note around the screen
+         we can close and minimize the sticky note
+     -->
+      <!-- <div class="sticky-cont">
+        <div class="header-cont">
+            <div class="minimize"></div>
+            <div class="remove"></div>
+        </div>
+        <div class="note-cont">
+            <textarea></textarea>
+        </div>
+      </div>  -->
+
+    <!-- sticky container -->
+
+
+    <!-- 
+        canvas it is an html element
+        which help us draw 2d Graphics  
+    -->
+
+       <canvas></canvas>   
+    <!-- 
+        canvas it is an html element
+        which help us draw 2d Graphics  
+    -->
+    
+</body>
+</html>
