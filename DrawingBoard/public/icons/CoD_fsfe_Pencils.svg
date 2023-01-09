@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 55 55" version="1.0">
+  <g id="layer1">
+    <g id="g3806" transform="matrix(1.2149 0 0 1.2149 -1.9394 -1.7892)">
+      <path id="path2166" d="m10.5 9.1562h1.25l0.688-4.9374-0.032-0.0626-1.906 5z" fill="#a00" fill-rule="evenodd"/>
+      <rect id="rect2160" height="25.178" width="3.6667" y="18.884" x="6.7467" fill="#a00"/>
+      <rect id="rect2162" height="25.178" width="3.6667" y="18.884" x="10.413" fill="#d40000"/>
+      <rect id="rect2164" height="25.178" width="3.6667" y="18.884" x="14.08" fill="#ff2a2a"/>
+      <path id="path3162" fill-rule="evenodd" fill="#ffd42a" d="m11.75 9.1562l-1.375 9.8128-0.063 0.031 3.813 0.062-0.031-0.031-1.094-9.8748h-1.25z"/>
+      <path id="path2179" d="m11.75 9.1562h1.25l-0.562-4.9374-0.688 4.9374z" fill="#d40000" fill-rule="evenodd"/>
+      <path id="path2171" d="m13 9.1562h1.188l-1.75-4.9374 0.562 4.9374z" fill="#ff2a2a" fill-rule="evenodd"/>
+      <path id="path3165" d="m13 9.1562l1.094 9.8748 0.031 0.031 3.594 0.032-3.531-9.9378h-1.188z" fill="#fd5" fill-rule="evenodd"/>
+      <path id="path3159" d="m10.5 9.1562l-3.7812 9.8128 3.5932 0.031 0.063-0.031 1.375-9.8128h-1.25z" fill="#fc0" fill-rule="evenodd"/>
+      <path id="path3248" d="m22.5 9.1562h1.25l0.688-4.9374-0.032-0.0626-1.906 5z" fill="#0a0" fill-rule="evenodd"/>
+      <rect id="rect3250" height="25.178" width="3.6667" y="18.884" x="18.747" fill="#0a0"/>
+      <rect id="rect3252" height="25.178" width="3.6667" y="18.884" x="22.413" fill="#00d400"/>
+      <rect id="rect3254" height="25.178" width="3.6667" y="18.884" x="26.08" fill="#2aff2a"/>
+      <path id="path3256" fill-rule="evenodd" fill="#ffd42a" d="m23.75 9.1562l-1.375 9.8128-0.063 0.031 3.813 0.062-0.031-0.031-1.094-9.8748h-1.25z"/>
+      <path id="path3258" d="m23.75 9.1562h1.25l-0.562-4.9374-0.688 4.9374z" fill="#00d400" fill-rule="evenodd"/>
+      <path id="path3260" d="m25 9.1562h1.188l-1.75-4.9374 0.562 4.9374z" fill="#2aff2a" fill-rule="evenodd"/>
+      <path id="path3262" d="m25 9.1562l1.094 9.8748 0.031 0.031 3.594 0.032-3.531-9.9378h-1.188z" fill="#fd5" fill-rule="evenodd"/>
+      <path id="path3264" d="m22.5 9.1562l-3.781 9.8128 3.593 0.031 0.063-0.031 1.375-9.8128h-1.25z" fill="#fc0" fill-rule="evenodd"/>
+      <path id="path3547" d="m34.5 9.1562h1.25l0.688-4.9374-0.032-0.0626-1.906 5z" fill="#00a" fill-rule="evenodd"/>
+      <rect id="rect3549" height="25.178" width="3.6667" y="18.884" x="30.747" fill="#00a"/>
+      <rect id="rect3551" height="25.178" width="3.6667" y="18.884" x="34.413" fill="#0000d4"/>
+      <rect id="rect3553" height="25.178" width="3.6667" y="18.884" x="38.08" fill="#2a2aff"/>
+      <path id="path3555" fill-rule="evenodd" fill="#ffd42a" d="m35.75 9.1562l-1.375 9.8128-0.063 0.031 3.813 0.062-0.031-0.031-1.094-9.8748h-1.25z"/>
+      <path id="path3557" d="m35.75 9.1562h1.25l-0.562-4.9374-0.688 4.9374z" fill="#0000d4" fill-rule="evenodd"/>
+      <path id="path3559" d="m37 9.1562h1.188l-1.75-4.9374 0.562 4.9374z" fill="#2a2aff" fill-rule="evenodd"/>
+      <path id="path3561" d="m37 9.1562l1.094 9.8748 0.031 0.031 3.594 0.032-3.531-9.9378h-1.188z" fill="#fd5" fill-rule="evenodd"/>
+      <path id="path3563" d="m34.5 9.1562l-3.781 9.8128 3.593 0.031 0.063-0.031 1.375-9.8128h-1.25z" fill="#fc0" fill-rule="evenodd"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Pencils</dc:title>
+        <dc:date>2008-12-01T15:56:15</dc:date>
+        <dc:description>Three extremely simple pencils. You can make them longer playing with the length of each rectangle.</dc:description>
+        <dc:source>http://openclipart.org/detail/20515/pencils-by-cod_fsfe</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>CoD_fsfe</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>color</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>inkscape</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>office</rdf:li>
+            <rdf:li>pencil</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
