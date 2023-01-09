@@ -1,0 +1,24 @@
+{
+  "name": "drawyou",
+  "version": "1.0.0",
+  "description": "JamBoard Application",
+  "main": "server.js",
+  "engines":{
+    "node":"18.12.1",
+    "npm":"8.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+  "author": "Abhishek Kumar Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
