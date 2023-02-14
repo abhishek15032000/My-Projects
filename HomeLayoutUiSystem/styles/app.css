@@ -270,4 +270,7 @@ section{
         font-size:calc(3.25*1vw);
         padding:calc(1.45*1vw);
     }
+    .textContent.home , .textContent.other{
+      font-size:calc(2.75*1vw);
+    }
 }
